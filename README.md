@@ -7,8 +7,8 @@
   ![Alt text](image.png)
 4. 在`router.bat`文件中配置要走内网的ip (修改大括号`{}`中的内容)
 	```bash
-  route add {要走内网的ip地址} mask 255.255.255.255 {内网网关}
-  route delete 0.0.0.0
-  route add 0.0.0.0 mask 0.0.0.0 {热点网关}
+    route add {要走内网的ip地址} mask 255.255.255.255 {内网网关}
+    route delete 0.0.0.0
+    route add 0.0.0.0 mask 0.0.0.0 {热点网关}
   ```
 5. 资源管理器中右键`router.bat`以管理员身份运行
