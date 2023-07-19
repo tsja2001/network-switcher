@@ -4,6 +4,7 @@
 
 @REM xxx大数据分析系统
 route add 10.7.195.191 mask 255.255.255.255 {内网网关}
+route add 10.7.195.91 mask 255.255.255.255 {内网网关}
 @REM xx CRM 系 统
 route add 192.168.1.18 mask 255.255.255.255 {内网网关}
 @REM @REM 邮件
